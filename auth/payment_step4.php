@@ -510,7 +510,7 @@ function remove(value) {
 
     // Set the request headers
     xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.setRequestHeader('Authorization', 'Basic c2tfbGl2ZV9TZUViemxGazQ2TDFMdWZpaUtMMGxQOg=='); // Replace 'YOUR_ACTUAL_TOKEN' with your token
+    xhr.setRequestHeader('Authorization', 'Your_Actual_Token'); // Replace 'YOUR_ACTUAL_TOKEN' with your token
 
 
     let line_item = {
