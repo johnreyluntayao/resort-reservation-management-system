@@ -38,9 +38,9 @@ if (isset($_POST["signup"])){
         //Enable SMTP authentication
         $mail->SMTPAuth = true;
         //SMTP username
-        $mail->Username = 'naturaverdefarm2023@gmail.com';
+        $mail->Username = '';
         //SMTP password
-        $mail->Password = 'uckxxsnfikigeczt';
+        $mail->Password = '';
         //Enable TLS encryption;
         $mail->SMTPSecure = PHPMailer:: ENCRYPTION_STARTTLS;
         //TCP port to connect to, use 465 for PHPMailer:: ENCRYPTION_SMTPS above
